@@ -2,7 +2,10 @@
   "name": "wander-vscode",
   "displayName": "wander-vscode",
   "description": "VSCode support for the Wander programming language.",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "license": "MPL-2.0",
+  "publisher": "Wander",
+  "repository": {"url": "https://github.com/almibe/wander-vscode", "type": "github"},
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -58,5 +61,8 @@
     "mocha": "^10.2.0",
     "typescript": "^5.2.2",
     "@vscode/test-electron": "^2.3.6"
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/almibe"
   }
 }
